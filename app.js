@@ -22,8 +22,7 @@ buttons.forEach((button) => {
       if (button.classList.contains("clear")) {
         display.textContent = "";
       } else if (!button.classList.contains("equals")) {
-        if (display.textContent === "" && isNaN(button.textContent)) {
-          // If the first character is an operation, do nothing!
+        if (display.textContent === "" && isNaN(button.textContent)) { // If the first character is an operation, do nothing!
           display.textContent += "";
         } else {
           display.textContent += button.textContent;
