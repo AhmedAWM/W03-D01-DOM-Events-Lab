@@ -53,9 +53,3 @@ equalsButton.addEventListener("click", () => {
 
 /*-------------------------------- Functions --------------------------------*/
 // No need for functions
-
-//*******************************//
-//                               //
-//   Think Smarter, not harder!  //
-//                               //
-//*******************************//
